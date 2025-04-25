@@ -80,6 +80,7 @@ DATABASES = {
         # 'ENGINE': 'django.db.backends.sqlite3',
         # 'NAME': BASE_DIR / 'db.sqlite3',
 
+
             'NAME': 'drf_db',
             'ENGINE': 'django.db.backends.postgresql',
             'USER': 'drf_user',
