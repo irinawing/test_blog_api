@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'accounts',
+    'posts',
 ]
 
 MIDDLEWARE = [
@@ -79,7 +80,6 @@ DATABASES = {
     'default': {
         # 'ENGINE': 'django.db.backends.sqlite3',
         # 'NAME': BASE_DIR / 'db.sqlite3',
-
 
             'NAME': 'drf_db',
             'ENGINE': 'django.db.backends.postgresql',
