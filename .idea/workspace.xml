@@ -4,12 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4233317-2b43-4b78-b1d2-82db74ba11d6" name="Changes" comment="Создаем и настраиваем проект, создаем API для работы с пользователями (PostgreSQL)">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="186edbf2-40ae-478d-ac7c-45dda2539e10" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/test_blog_api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/test_blog_api.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple_blog/accounts/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/simple_blog/accounts/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple_blog/accounts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/simple_blog/accounts/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple_blog/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/simple_blog/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple_blog/posts/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/simple_blog/posts/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple_blog/posts/migrations/0002_comment.py" beforeDir="false" afterPath="$PROJECT_DIR$/simple_blog/posts/migrations/0002_comment.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple_blog/posts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/simple_blog/posts/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple_blog/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/simple_blog/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/simple_blog/simple_blog/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/simple_blog/simple_blog/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/simple_blog/simple_blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/simple_blog/simple_blog/urls.py" afterDir="false" />
     </list>
@@ -18,14 +24,14 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="Git.Settings">
-    <option name="PREVIOUS_COMMIT_AUTHORS">
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
       <list>
-        <option value="IrinaWing &lt;irina.wing@mail.ru&gt;" />
-        <option value="шкш" />
-        <option value="Irina Wing" />
+        <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -37,83 +43,144 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/irinawing/test_blog_api.git&quot;,
-    &quot;accountId&quot;: &quot;56e18e5a-7f1b-4a57-91e6-950cecf597d3&quot;
+    &quot;accountId&quot;: &quot;d5421f5e-08f3-46ac-9b5d-70aa919c0620&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 0
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 4
 }</component>
-  <component name="ProjectId" id="2wE7CdPxEEPDOZQHnJm2VHBck3n" />
+  <component name="ProjectId" id="2uFa3j9I53etW9tzHwsUTdqxusA" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Stepik - Django/PyCharm Projects/test_blog_api/simple_blog/simple_blog&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;
   }
 }</component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Stepik - Django\PyCharm Projects\test_blog_api\simple_blog\simple_blog" />
-    </key>
+  <component name="RunManager">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="market_prj" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <module name="market_prj" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docs" factoryName="Docutils task">
+      <module name="market_prj" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="docutils_input_file" value="" />
+      <option name="docutils_output_file" value="" />
+      <option name="docutils_params" value="" />
+      <option name="docutils_task" value="" />
+      <option name="docutils_open_in_browser" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docs" factoryName="Sphinx task">
+      <module name="market_prj" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="docutils_input_file" value="" />
+      <option name="docutils_output_file" value="" />
+      <option name="docutils_params" value="" />
+      <option name="docutils_task" value="" />
+      <option name="docutils_open_in_browser" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <module name="market_prj" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <module name="market_prj" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-348a24fa61fa-5312c7369657-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-251.23774.444" />
+        <option value="bundled-python-sdk-4c141bd692a7-e2d783800521-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-251.26927.90" />
       </set>
     </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c4233317-2b43-4b78-b1d2-82db74ba11d6" name="Changes" comment="" />
-      <created>1745594752943</created>
+      <changelist id="186edbf2-40ae-478d-ac7c-45dda2539e10" name="Default Changelist" comment="" />
+      <created>1741846579410</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1745594752943</updated>
+      <updated>1741846579410</updated>
     </task>
-    <task id="LOCAL−00001" summary="Создаем и настраиваем проект, создаем API для работы с пользователями (SQLite)">
-      <option name="closed" value="true" />
-      <created>1745608761427</created>
-      <option name="number" value="LOCAL−00001" />
-      <option name="presentableId" value="LOCAL−00001" />
-      <updated>1745608761427</updated>
-    </task>
-    <task id="LOCAL−00002" summary="Создаем и настраиваем проект, создаем API для работы с пользователями (PostgreSQL)">
-      <option name="closed" value="true" />
-      <created>1745610144175</created>
-      <option name="number" value="LOCAL−00002" />
-      <option name="presentableId" value="LOCAL−00002" />
-      <updated>1745610144175</updated>
-    </task>
-    <task id="LOCAL−00003" summary="Создаем и настраиваем проект, создаем API для работы с пользователями (PostgreSQL)">
-      <option name="closed" value="true" />
-      <created>1745610514253</created>
-      <option name="number" value="LOCAL−00003" />
-      <option name="presentableId" value="LOCAL−00003" />
-      <updated>1745610514253</updated>
-    </task>
-    <task id="LOCAL−00004" summary="Создаем и настраиваем проект, создаем API для работы с пользователями (PostgreSQL)">
-      <option name="closed" value="true" />
-      <created>1745610619501</created>
-      <option name="number" value="LOCAL−00004" />
-      <option name="presentableId" value="LOCAL−00004" />
-      <updated>1745610619501</updated>
-    </task>
-    <option name="localTasksCounter" value="5" />
     <servers />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT_PROFILE" value="Project Default" />
-    <MESSAGE value="Создаем и настраиваем проект, создаем API для работы с пользователями (SQLite)" />
-    <MESSAGE value="Создаем и настраиваем проект, создаем API для работы с пользователями (PostgreSQL)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Создаем и настраиваем проект, создаем API для работы с пользователями (PostgreSQL)" />
   </component>
 </project>

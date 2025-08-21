@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Black">
-    <option name="sdkName" value="Python 3.9 (test_blog_api)" />
+    <option name="sdkName" value="Python 3.9 (PythonBasics)" />
   </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.9 (test_blog_api)" project-jdk-type="Python SDK" />
+  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.9 (PythonBasics)" project-jdk-type="Python SDK" />
+  <component name="PyCharmProfessionalAdvertiser">
+    <option name="shown" value="true" />
+  </component>
 </project>

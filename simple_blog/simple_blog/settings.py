@@ -20,7 +20,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '7ng80)_jxpk)1d2yw&&7(hph&#3jquzf0um-zz_srvw5!0k)_p'
+SECRET_KEY = 'e_tv+qr-p9)3^v1-e%+3wf!vhzu@&vt4or#(_j4i-m(6451pmn'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -77,17 +77,18 @@ WSGI_APPLICATION = 'simple_blog.wsgi.application'
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
 
 DATABASES = {
-    'default': {
+    # 'default': {
         # 'ENGINE': 'django.db.backends.sqlite3',
         # 'NAME': BASE_DIR / 'db.sqlite3',
 
+        'default': {
             'NAME': 'drf_db',
             'ENGINE': 'django.db.backends.postgresql',
             'USER': 'drf_user',
             'PASSWORD': 'drf_user',
             'HOST': 'localhost',
             'PORT': '5434',
-    }
+        }
 }
 
 
